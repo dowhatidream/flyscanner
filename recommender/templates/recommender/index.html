@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>안녕하세요</h2>
+
+    <ul>
+        {% for c in index %}
+        <li><a href='{{ c.cID }}'>{{ c.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
